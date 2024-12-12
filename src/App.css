@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color:#8bd7f5; */
+  /* background-color: #03032e; */
+}
+
+
+.our_mission{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./images/background2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-position: center;
+}
+
+.last_section_ourMission{
+  border-bottom: 2px solid #307a97;
+}
+
+.values_our_care{
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
