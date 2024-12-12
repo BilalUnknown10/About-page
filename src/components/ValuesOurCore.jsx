@@ -2,6 +2,8 @@
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
 import StorageIcon from '@mui/icons-material/Storage';
+import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
+import EastIcon from '@mui/icons-material/East';
 
 function ValuesOurCore() {
   return (
@@ -29,6 +31,18 @@ function ValuesOurCore() {
                     <StorageIcon style={{color:"#307a97",fontSize:"50px"}}/>
                     <h1 className='text-white'>Accessability</h1>
                 </div>
+            </div>
+            <div className='text-center text-3xl mt-10 font-extrabold text-white tracking-wide'>
+                <h1>Ready to Experience the Future of <br /> Technology with Codehive?</h1>
+            </div>
+            <div className='text-center my-10'>
+                <button className='lets_talk text-center border py-1.5 pr-2 pl-9 bg-slate-500 border-none text-white rounded-full'>
+                    <span className='mr-4'><PhoneInTalkIcon/></span>
+                    <span>Let's Talk</span>
+                    <span className='ml-4 bg-[#307a97] text-white rounded-full py-1 px-2 text-clip'>
+                        <EastIcon style={{fontSize: "12px"}}/>
+                    </span>
+                </button>
             </div>
         </div>
 
