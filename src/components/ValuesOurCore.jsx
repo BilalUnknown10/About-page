@@ -15,7 +15,7 @@ function ValuesOurCore() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae rerum dolor explicabo ratione! Id quam aspernatur dicta ullam similique ex voluptate doloremque culpa. Numquam dicta placeat molestias at atque.</p>
             </div>
             <div className="py-20 flex justify-between">
-                <div className="values_our_care w-[200px] h-[200px] flex flex-col justify-center items-center bg-white ">
+                <div className="values_our_care w-[200px] h-[200px] flex flex-col justify-center items-center  ">
                     <EmojiEventsIcon style={{color:"#307a97",fontSize:"50px"}}/>
                     <h1 className='text-white'>Success</h1>
                 </div>
