@@ -27,7 +27,7 @@ function About_codeHive() {
 
         {/* Code hive images section */}
         <div className=' '>
-          <img className='' src="./images/code.jpg" alt="" />
+          <img className='' src="./images/file (1).png" alt="" />
         </div>
     </div>
    

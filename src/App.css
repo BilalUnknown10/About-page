@@ -31,7 +31,13 @@
 
 .image_div{
   background: linear-gradient( rgba(200, 255, 255, 0.2), rgba(0,0,0,0.5));
-  box-shadow: 0px 4px 16px;
-  
-  
+  box-shadow: 0px 4px 16px;  
+}
+
+.what_They_say_details{
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../public/images/they_Say.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }

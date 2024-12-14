@@ -2,7 +2,7 @@
 
 function Partnered_industry() {
   return (
-    <div className='py-10 px-24 bg-[#03032e]'>
+    <div className='py-10 px-24 bg-[#040422]'>
         <div className=' py-3'>
             <div className='text-center'>
                 <h1 className='font-bold text-white tracking-wide text-3xl'>Partnered with Most of the Top <br /> People at Each 
