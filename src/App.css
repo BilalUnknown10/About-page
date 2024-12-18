@@ -41,3 +41,22 @@
   background-size: cover;
 
 }
+
+.lets_talk_form_main{
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../public/images/they_Say.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lets_talk_form{
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.226);
+}
+
+.input{
+  background: linear-gradient(rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.3));
+  /* border: 1px solid white; */
+  color: white;
+  outline: none;
+}
