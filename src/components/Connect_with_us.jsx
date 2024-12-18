@@ -7,18 +7,18 @@ import EastIcon from '@mui/icons-material/East';
 
 function Connect_with_us() {
   return (
-    <div className=' bg-[#03032e] py-28 px-96 lets_talk_form_main'>
-        <div className=' py-10 px-24 lets_talk_form rounded-md '>
+    <div className=' bg-[#03032e] py-28 sm:px-96 lets_talk_form_main'>
+        <div className=' py-10 px-10 sm:px-24 lets_talk_form rounded-md '>
             <div className='text-white text-center'>
                 <h3 className='text-xl'>Let's Talk</h3>
                 <h1 className='text-3xl font-bold tracking-wide'><span className='text-[#307a97]'>Connect </span> with us</h1>
             </div>
             <form onSubmit={'submit'} className=' my-4'>
                 <div className='pt-6 flex flex-wrap justify-between'>
-                    <Input text={'name'} placeholder={"Name"} className={'w-[300px] input'}/>
-                    <Input text={'name'} placeholder={"Email Address"} className={'w-[300px] input'}/>
-                    <Input text={'name'} placeholder={"phone"} className={'w-[300px] input'}/>
-                    <Input text={'name'} placeholder={"Current Website"} className={'w-[300px] input'}/>
+                    <Input text={'name'} placeholder={"Name"} className={'min-w-[330px] sm:w-[300px] input'}/>
+                    <Input text={'name'} placeholder={"Email Address"} className={'min-w-[330px] w-[400px] sm:w-[300px] input'}/>
+                    <Input text={'name'} placeholder={"phone"} className={'min-w-[330px] sm:w-[300px] input'}/>
+                    <Input text={'name'} placeholder={"Current Website"} className={'min-w-[330px] sm:w-[300px] input'}/>
                 </div>
                 <Input text={"text"} placeholder={"i'm intrested in website design"} className={'input to-100%'}/>
                 <Input text={"text"} placeholder={"Message"} className={'input to-100%'}/>

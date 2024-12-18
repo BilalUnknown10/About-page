@@ -30,16 +30,16 @@ function They_say_about_us() {
 
 
   return (
-    <div className=" py-10 px-28 ">
-        <div className="flex justify-between py-8">
-            <h1 className="text-3xl font-bold">What They <span className=" text-[#307a97]"> Say</span> About us</h1>
+    <div className=" py-10 px-10 sm:px-28 ">
+        <div className="flex flex-wrap justify-between py-8">
+            <h1 className="sm:text-3xl text-xl font-bold">What They <span className=" text-[#307a97]"> Say</span> About us</h1>
             <div>
                 <KeyboardArrowLeftIcon style={leftArrowCss}/>
                 <KeyboardArrowRightIcon style={rightArrowCss}/>
             </div>
         </div>
-        <div className='what_They_say flex'>
-            <div className='what_They_say_details mr-4 py-5 px-5 rounded-xl'>
+        <div className='what_They_say sm:flex'>
+            <div className='what_They_say_details sm:mr-4 my-5 py-5 px-5 rounded-xl'>
                 <FormatQuoteIcon style={quoteStyle}/>
                 <p className='text-white'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae rerum dolor explicabo ratione! Id quam aspernatur dicta ullam similique ex voluptate doloremque culpa. Numquam dicta placeat molestias at atque.
@@ -48,7 +48,7 @@ function They_say_about_us() {
                 <h1 className='text-xl font-bold text-white pt-3'>Ibrahim Alawar</h1>
                 <p className=' text-white'>Alawar General Trading Est</p>
             </div>
-             <div className='what_They_say_details mr-4 py-5 px-5 rounded-xl'>
+             <div className='what_They_say_details sm:mr-4 my-5 py-5 px-5 rounded-xl'>
                 <FormatQuoteIcon style={quoteStyle}/>
                 <p className='text-white'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae rerum dolor explicabo ratione! Id quam aspernatur dicta ullam similique ex voluptate doloremque culpa. Numquam dicta placeat molestias at atque.
@@ -57,7 +57,7 @@ function They_say_about_us() {
                 <h1 className='text-xl font-bold text-white pt-3'>Ibrahim Alawar</h1>
                 <p className=' text-white'>Alawar General Trading Est</p>
             </div>
-             <div className='what_They_say_details mr-4 py-5 px-5 rounded-xl'>
+             <div className='what_They_say_details sm:mr-4 my-5 py-5 px-5 rounded-xl'>
                 <FormatQuoteIcon style={quoteStyle}/>
                 <p className='text-white'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae rerum dolor explicabo ratione! Id quam aspernatur dicta ullam similique ex voluptate doloremque culpa. Numquam dicta placeat molestias at atque.

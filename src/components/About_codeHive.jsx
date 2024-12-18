@@ -8,10 +8,10 @@ function About_codeHive() {
  
   return (
     <>
-      <div className="code_hive px-20 flex justify-evenly items-center bg-[#b3dbeb] pt-10">
+      <div className="code_hive px-10 sm:px-20 flex flex-wrap-reverse  justify-evenly items-center bg-[#b3dbeb] pt-10">
         
         {/* Code hive details section */}
-        <div className=' w-[600px]  '>
+        <div className=' sm:w-[600px] '>
             <h1 className=' font-extrabold text-3xl tracking-wider mb-5'>About <span className='text-[#307a97]'>Codehive</span> </h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae rerum dolor explicabo ratione! Id quam aspernatur dicta ullam similique ex voluptate doloremque culpa. Numquam dicta placeat molestias at atque.
@@ -32,20 +32,20 @@ function About_codeHive() {
     </div>
    
     {/* code hive last section */}
-    <div className='bg-black py-4 flex justify-between items-center'>
-        <div className='flex justify-center items-center text-white'>
+    <div className='bg-black py-4 flex flex-wrap justify-between items-center px-5'>
+        <div className='flex justify-center items-center my-2 text-white'>
             <GroupsIcon style={{color:"#b3dbeb",}}/>
             <p className='px-2'>20000+ Successfull Clients</p>
         </div>
-        <div className='flex justify-center items-center text-white'>
+        <div className='flex justify-center items-center my-2 text-white'>
             <LanguageIcon style={{color:"#b3dbeb",}}/>
             <p className='px-2'>20000+ Successfull Clients</p>
         </div>
-        <div className='flex justify-center items-center text-white'>
+        <div className='flex justify-center items-center my-2 text-white'>
             <GroupsIcon style={{color:"#b3dbeb",}}/>
             <p className='px-2'>20000+ Successfull Clients</p>
         </div>
-        <div className='flex justify-center items-center text-white'>
+        <div className='flex justify-center items-center my-2 text-white'>
             <LanguageIcon style={{color:"#b3dbeb",}}/>
             <p className='px-2'>20000+ Successfull Clients</p>
         </div>

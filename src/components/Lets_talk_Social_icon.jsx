@@ -12,8 +12,8 @@ function Lets_talk_Social_icon() {
         boxShadow : " 0px 1px 5px blue"
     }
   return (
-    <div className='py-5 px-20 bg-[#020229] text-white last_Section'>
-            <div className='flex justify-between py-5'>
+    <div className='py-5 px-10 sm:px-20 bg-[#020229] text-white last_Section'>
+            <div className='flex flex-wrap justify-between py-5'>
                 <div>
                     <div>
                         <LinkedInIcon style={iconStyle}/>
@@ -21,7 +21,7 @@ function Lets_talk_Social_icon() {
                         <LinkedInIcon style={iconStyle} />
                         <XIcon style={iconStyle}/>
                     </div>
-                    <div className=' list-none flex my-10 tracking-wide'>
+                    <div className=' list-none flex flex-col my-10 tracking-wide'>
                         <li className='mr-5'>Home</li>
                         <li className='mr-5'>About Us</li>
                         <li className='mr-5'>Services</li>

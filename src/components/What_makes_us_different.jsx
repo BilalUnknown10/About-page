@@ -3,12 +3,12 @@
 function What_makes_us_different() {
   return (
     <>
-        <div className='py-24 px-40'>
-            <div className='flex justify-around  px-10 '>
-                <div className=' w-[50%] '>
-                    <h1 className='font-extrabold text-3xl tracking-wide'>What Makes Us <br /><span className='text-[#307a97]'>Different</span></h1>
+        <div className='py-24 sm:px-40'>
+            <div className='sm:flex justify-around  px-10 '>
+                <div className=' sm:w-[50%] '>
+                    <h1 className='font-extrabold text-xl sm:text-3xl tracking-wide mb-5'>What Makes Us <span className='text-[#307a97]'>Different</span></h1>
                 </div>
-                <div className=' w-[50%]'>
+                <div className=' sm:w-[50%]'>
                     <div className='flex justify-center items-center'>
                         <p className='border-2 border-[#307a97] font-bold text-xl text-[#307a97] py-4 px-4 rounded-[50%] mr-5'>01</p>
                         <div>
