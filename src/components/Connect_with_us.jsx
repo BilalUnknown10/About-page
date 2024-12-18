@@ -15,10 +15,10 @@ function Connect_with_us() {
             </div>
             <form onSubmit={'submit'} className=' my-4'>
                 <div className='pt-6 flex flex-wrap justify-between'>
-                    <Input text={'name'} placeholder={"Name"} className={'w-[310px] input'}/>
-                    <Input text={'name'} placeholder={"Email Address"} className={'w-[310px] input'}/>
-                    <Input text={'name'} placeholder={"phone"} className={'w-[310px] input'}/>
-                    <Input text={'name'} placeholder={"Current Website"} className={'w-[310px] input'}/>
+                    <Input text={'name'} placeholder={"Name"} className={'w-[300px] input'}/>
+                    <Input text={'name'} placeholder={"Email Address"} className={'w-[300px] input'}/>
+                    <Input text={'name'} placeholder={"phone"} className={'w-[300px] input'}/>
+                    <Input text={'name'} placeholder={"Current Website"} className={'w-[300px] input'}/>
                 </div>
                 <Input text={"text"} placeholder={"i'm intrested in website design"} className={'input to-100%'}/>
                 <Input text={"text"} placeholder={"Message"} className={'input to-100%'}/>
